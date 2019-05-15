@@ -29,7 +29,7 @@ public class CrossBrowser
 			System.setProperty("webdriver.gecko.driver","E:\\selenium\\geckodriver-v0.23.0-win64\\geckodriver.exe");
 			driver=new FirefoxDriver();	
 		}
-		else if(x.equals("ie"))
+		else if(x.equals("IE"))
 		{
 			System.setProperty("webdriver.ie.driver","E:\\selenium\\IEDriverServer_x64_3.14.0\\IEDriverServer.exe");
 			driver=new InternetExplorerDriver();
